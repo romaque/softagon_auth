@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthRepository extends Disposable {
-  String _urlApi = "http://192.168.0.102:1337";
+  String _urlApi = "http://10.0.0.1:1337";
   Dio client = new Dio();
   String token;
 
